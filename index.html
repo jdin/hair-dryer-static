@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:v-on="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hair Dryer PWA</title>
     <!--<link rel="stylesheet" type="text/css" href="styles/inline.css">-->
+
 </head>
 <body>
-Hello World!!!
+Hair Dryer Sound
 
-<!-- Insert link to app.js here -->
+<div id="app">
+    <button v-on:click="startStop">{{getButtonName()}}</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.2/vue.min.js"></script>
+<!--<script src="node_modules/vue/dist/vue.common.js" async></script>-->
+<script src="node_modules/howler/dist/howler.core.min.js"></script>
 <script src="scripts/app.js" async></script>
 </body>
 </html>
