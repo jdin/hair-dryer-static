@@ -1,0 +1,14 @@
+{
+  "name": "hair-dryer-static",
+  "version": "1.0.0",
+  "description": "simplest PWA app",
+  "scripts": {
+    "start": "live-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jdinosaurus",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
