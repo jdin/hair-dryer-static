@@ -13,7 +13,7 @@
 // limitations under the License.
 
 var cacheName = 'hairDryerPWA-v1';
-var filesToCache = ['/', '/index.html', '/scripts/app.js'];
+var filesToCache = ['', 'index.html', 'scripts/app.js'];
 
 self.addEventListener('install', function(e) {
     console.log('[ServiceWorker] Install');
