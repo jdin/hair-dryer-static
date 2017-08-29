@@ -15,7 +15,7 @@
 var cacheName = 'hairDryerPWA-v1';
 
 // TODO add vue and howler
-var filesToCache = ['', 'index.html', 'scripts/app.js', "manifest.json"];
+var filesToCache = ['', 'index.html', 'scripts/app.js'];
 
 self.addEventListener('install', function(e) {
     console.log('[ServiceWorker] Install');
