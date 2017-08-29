@@ -13,7 +13,9 @@
 // limitations under the License.
 
 var cacheName = 'hairDryerPWA-v1';
-var filesToCache = ['', 'index.html', 'scripts/app.js'];
+
+// TODO add vue and howler
+var filesToCache = ['', 'index.html', 'scripts/app.js', "manifest.json"];
 
 self.addEventListener('install', function(e) {
     console.log('[ServiceWorker] Install');
